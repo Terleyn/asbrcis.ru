@@ -5,9 +5,9 @@ import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'ASBRCIS',
-  description: 'Официальный сайт ASBRCIS',
-  generator: 'ASBRCIS',
+  title: 'ASBR:CIS',
+  description: 'Официальный сайт ASBR:CIS',
+  generator: 'ASBR:CIS',
 }
 
 export default function RootLayout({
