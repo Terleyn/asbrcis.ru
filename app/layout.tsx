@@ -6,25 +6,14 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'ASBR:CIS',
-  description: 'Русское сообщество по JoJo’s Bizarre Adventure: All-Star Battle R',
+  description: 'Русское сообщество по играм JoJo / ASBR:CIS',
   generator: 'ASBR:CIS',
-  keywords: [
-    'ASBR',
-    'JoJo',
-    'JoJo’s Bizarre Adventure',
-    'All-Star Battle R',
-    'ASBR CIS',
-    'Русское сообщество JoJo',
-    'JoJo Discord',
-    'JoJo Fighting Game'
-  ],
-  authors: [{ name: 'ASBR:CIS Team' }],
-  metadataBase: new URL('https://asbrcis.ru'),
-
+  keywords: 'JoJo, ASBR, CIS, Джоджо, русское сообщество, игры',
+  authors: [{ name: 'ASBR:CIS' }],
   openGraph: {
     title: 'ASBR:CIS',
-    description: 'Русское сообщество по JoJo’s Bizarre Adventure: All-Star Battle R',
-    url: 'https://asbrcis.ru',
+    description: 'Русское сообщество по играм JoJo / ASBR:CIS',
+    url: 'https://asbrcis.ru/',
     siteName: 'ASBR:CIS',
     images: [
       {
@@ -34,14 +23,13 @@ export const metadata: Metadata = {
         alt: 'ASBR:CIS Logo',
       },
     ],
-    locale: 'ru_RU',
     type: 'website',
   },
-
-  icons: {
-    icon: '/favicon.ico', 
-    shortcut: '/favicon.ico',
-    apple: '/server-logo.png',
+  twitter: {
+    card: 'summary_large_image',
+    title: 'ASBR:CIS',
+    description: 'Русское сообщество по играм JoJo / ASBR:CIS',
+    images: ['/server-logo.png'],
   },
 }
 
@@ -52,9 +40,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ru">
-      <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </head>
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>
         {children}
         <Analytics />
