@@ -71,7 +71,7 @@ export default function Home() {
               <div className="absolute inset-0 opacity-5 bg-[radial-gradient(circle,currentColor_1px,transparent_1px)] bg-[length:8px_8px]" />
               <CardHeader className="relative">
                 <Users className="mx-auto h-10 w-10 text-primary mb-2" />
-                <CardTitle className="text-4xl font-bold">~400</CardTitle>
+                <CardTitle className="text-4xl font-bold">~30</CardTitle>
                 <CardDescription className="text-base">Игроков в день</CardDescription>
               </CardHeader>
             </Card>
@@ -79,7 +79,7 @@ export default function Home() {
               <div className="absolute inset-0 opacity-5 bg-[radial-gradient(circle,currentColor_1px,transparent_1px)] bg-[length:8px_8px]" />
               <CardHeader className="relative">
                 <Gamepad2 className="mx-auto h-10 w-10 text-secondary mb-2" />
-                <CardTitle className="text-4xl font-bold">~100</CardTitle>
+                <CardTitle className="text-4xl font-bold">~20</CardTitle>
                 <CardDescription className="text-base">Постоянных игроков</CardDescription>
               </CardHeader>
             </Card>
@@ -113,7 +113,7 @@ export default function Home() {
                   <span className="text-foreground font-semibold">JoJo HFTF</span> и{" "}
                   <span className="text-foreground font-semibold">JoJo EOH</span>. В основном все играют в{" "}
                   <span className="text-primary font-semibold">JoJo's Bizarre Adventure: All-Star Battle R</span>.
-                  Онлайн в игре маленький, поэтому мы собираемся в голосовом канале и играем друг с другом. Здесь ты
+                  Онлайн в игре маленький, поэтому мы собираемся в голосовом канале и играем друг против друга. Здесь ты
                   всегда найдёшь с кем поиграть!
                 </p>
               </CardContent>
@@ -138,21 +138,21 @@ export default function Home() {
             <Card className="hover:border-primary hover:shadow-[0_0_20px_rgba(255,215,0,0.2)] transition-all">
               <CardHeader>
                 <Hash className="h-6 w-6 text-primary mb-2" />
-                <CardTitle>rules</CardTitle>
+                <CardTitle>Rules</CardTitle>
                 <CardDescription>Правила сервера</CardDescription>
               </CardHeader>
             </Card>
             <Card className="hover:border-primary hover:shadow-[0_0_20px_rgba(255,215,0,0.2)] transition-all">
               <CardHeader>
                 <Hash className="h-6 w-6 text-primary mb-2" />
-                <CardTitle>news</CardTitle>
+                <CardTitle>News</CardTitle>
                 <CardDescription>Новости и обновления</CardDescription>
               </CardHeader>
             </Card>
             <Card className="hover:border-primary hover:shadow-[0_0_20px_rgba(255,215,0,0.2)] transition-all">
               <CardHeader>
                 <Hash className="h-6 w-6 text-primary mb-2" />
-                <CardTitle>content-hub</CardTitle>
+                <CardTitle>Content-hub</CardTitle>
                 <CardDescription>Контент сообщества</CardDescription>
               </CardHeader>
             </Card>
@@ -160,14 +160,14 @@ export default function Home() {
             <Card className="hover:border-secondary hover:shadow-[0_0_20px_rgba(220,38,38,0.2)] transition-all">
               <CardHeader>
                 <Gamepad2 className="h-6 w-6 text-secondary mb-2" />
-                <CardTitle>asbr</CardTitle>
+                <CardTitle>Asbr</CardTitle>
                 <CardDescription>Основной канал игры</CardDescription>
               </CardHeader>
             </Card>
             <Card className="hover:border-secondary hover:shadow-[0_0_20px_rgba(220,38,38,0.2)] transition-all">
               <CardHeader>
                 <Gamepad2 className="h-6 w-6 text-secondary mb-2" />
-                <CardTitle>clips-combos</CardTitle>
+                <CardTitle>Clips-combos</CardTitle>
                 <CardDescription>Клипы и комбо</CardDescription>
               </CardHeader>
             </Card>
@@ -175,22 +175,22 @@ export default function Home() {
             <Card className="hover:border-primary hover:shadow-[0_0_20px_rgba(255,215,0,0.2)] transition-all">
               <CardHeader>
                 <Info className="h-6 w-6 text-primary mb-2" />
-                <CardTitle>character-info</CardTitle>
+                <CardTitle>Character-info</CardTitle>
                 <CardDescription>Информация о персонажах</CardDescription>
               </CardHeader>
             </Card>
             <Card className="hover:border-primary hover:shadow-[0_0_20px_rgba(255,215,0,0.2)] transition-all">
               <CardHeader>
                 <Wrench className="h-6 w-6 text-primary mb-2" />
-                <CardTitle>parsec</CardTitle>
-                <CardDescription>Настройка онлайн-игры</CardDescription>
+                <CardTitle>Parsec</CardTitle>
+                <CardDescription>Настройка игры по парсеку</CardDescription>
               </CardHeader>
             </Card>
 
             <Card className="hover:border-secondary hover:shadow-[0_0_20px_rgba(220,38,38,0.2)] transition-all">
               <CardHeader>
                 <MessageSquare className="h-6 w-6 text-secondary mb-2" />
-                <CardTitle>general</CardTitle>
+                <CardTitle>General</CardTitle>
                 <CardDescription>Общение</CardDescription>
               </CardHeader>
             </Card>
@@ -208,7 +208,7 @@ export default function Home() {
             <Trophy className="mx-auto h-16 w-16 text-primary mb-6 animate-bounce-slow" />
             <h2 className="mb-6 text-3xl font-bold md:text-4xl">Картофельные зарубы</h2>
             <p className="mb-8 text-lg text-muted-foreground leading-relaxed">
-              Регулярно проводим турниры, где игроки сражаются за звание лучшего. Участвуй, улучшай свои навыки и
+              Регулярно проводим турниры, где игроки сражаются за звание лучшего (и деньги :D). Участвуй, улучшай свои навыки и
               побеждай!
             </p>
             <Button
