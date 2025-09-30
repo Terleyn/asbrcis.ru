@@ -10,6 +10,11 @@ export const metadata: Metadata = {
   generator: 'ASBR:CIS',
   keywords: 'JoJo, ASBR, CIS, Джоджо, русское сообщество, игры',
   authors: [{ name: 'ASBR:CIS' }],
+  icons: {
+    icon: '/server-logo.png',       // стандартный favicon
+    shortcut: '/server-logo.png',   // для старых браузеров
+    apple: '/server-logo.png',      // для iOS
+  },
   openGraph: {
     title: 'ASBR:CIS',
     description: 'Русское сообщество по играм JoJo / ASBR:CIS',
@@ -40,6 +45,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ru">
+      <head>
+        {/* Дополнительно можно вручную добавить favicon ссылки для совместимости */}
+        <link rel="icon" href="/server-logo.png" sizes="32x32" />
+        <link rel="icon" href="/server-logo.png" sizes="16x16" />
+        <link rel="apple-touch-icon" href="/server-logo.png" />
+      </head>
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>
         {children}
         <Analytics />
